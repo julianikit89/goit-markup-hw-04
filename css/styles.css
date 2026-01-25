@@ -432,19 +432,37 @@ section {
   color: #f4f4fd;
 }
 
-.icon-title {
+.icons-title {
   color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .page-footer .container {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
 }
 
-.footer-content {
-}
-
-.footer-icons {
+.social-media {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-icons .icons-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icons .icons-item:hover {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: #31d0aa;
+}
+
+.our-team-item .icons-item:hover {
+  background: #404bbf;
 }
