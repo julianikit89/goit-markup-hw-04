@@ -555,7 +555,11 @@ margin-right: 120px
 }
 
 
-.item-icon:focus,
+.icons-item:focus,
 .item-icon:hover {
 background-color: #31d0aa;
+}
+
+.icons-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
