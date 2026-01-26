@@ -431,6 +431,10 @@ section {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.our-portfolio-subtitle-item:hover {
+ transform: translateY(0%);
+}
+
 .thumb {
   position: relative;
   overflow: hidden;
@@ -448,9 +452,12 @@ section {
   color: #f4f4fd;
   width: 100%;
   height: 100%;
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-footer-title {
@@ -483,6 +490,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .page-footer .container {
@@ -523,7 +531,7 @@ margin-right: 120px
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.instagram-icon {
+.item-icon {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -531,9 +539,14 @@ margin-right: 120px
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.instagram-icon:focus:hover {
+.item-icon:focus {
+background-color: #31d0aa;
+}
+
+.item-icon:hover {
 background-color: #31d0aa;
 }
